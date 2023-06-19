@@ -64,6 +64,8 @@ namespace Calculadora
         {
             excluir = "";
             TxtResultado.Text = Convert.ToString(excluir);
+            labelOperacao.Text = "Excluido";
+
         }
 
         private void button13_Click(object sender, EventArgs e)
