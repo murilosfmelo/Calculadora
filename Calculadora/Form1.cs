@@ -63,8 +63,8 @@ namespace Calculadora
         private void button5_Click(object sender, EventArgs e)
         {
             excluir = "";
-            TxtResultado.Text = Convert.ToString(excluir);
-            labelOperacao.Text = "Excluido";
+            TxtResultado.Text = Convert.ToString("");
+            labelOperacao.Text = "unidade apagada";
 
         }
 
@@ -184,6 +184,13 @@ namespace Calculadora
 
             //informar para o usuario a operação que ele esta usando
             labelOperacao.Text = "/";
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            excluir = "";
+            TxtResultado.Text = Convert.ToString(excluir);
+            labelOperacao.Text = "Excluido";
         }
     }
 }
