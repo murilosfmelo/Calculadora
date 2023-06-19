@@ -215,6 +215,7 @@ namespace Calculadora
             this.button15.TabIndex = 16;
             this.button15.Text = "X";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button16
             // 
@@ -244,6 +245,7 @@ namespace Calculadora
             this.button18.TabIndex = 19;
             this.button18.Text = "/";
             this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
             // Form1
             // 
